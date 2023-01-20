@@ -1,0 +1,44 @@
+.item{
+    width: 100vw;
+    height: 50vh;
+}
+.item .img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+.img img{
+    float: right;
+    margin-top: 45px;
+    
+}
+
+.item .img1{
+    background-image: url("https://scitechdaily.com/images/Brain-Energy.gif");
+    
+}
+.item .img2{
+    background-image: url("https://www.mit.edu/files/images/202211/MIT-Neural-Networks-SL.gif");
+    
+}
+.item .img3{
+    background-image: url("https://news.microsoft.com/wp-content/uploads/prod/sites/93/2017/02/Girls-in-STEM-gif-1.gif");
+    
+}
+
+.carousel-control-prev-icon {
+	background-image: url("") !important;
+}
+.carousel-control-next-icon {
+	background-image: url("") !important;
+    
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: .5rem;
+	font-weight: 500;
+	line-height: 1.2;
+	background: linear-gradient(rgba(58, 57, 56, 1), rgb(0, 0, 0,0));
+    background-size: auto;
+}

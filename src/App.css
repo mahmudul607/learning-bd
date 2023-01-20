@@ -1,44 +1,7 @@
-.carousel-items{
- 
-  height: 50vh;
-  width: 100vw;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.carousel .carousel-item-1{
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/380/523/681/design-neon-abstract-light-design-hd-wallpaper-preview.jpg");
-}
-.carousel.carousel-item-2{
-  background-image: url("")
-}
-.bn-1{
+.top-carousel{
   width: 100vw;
   height: 50vh;
 }
-.offcanvas-sm .offcanvas-body ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  margin: auto;
-}
-.offcanvas-sm .offcanvas-body ul li {
-  list-style: none;
-}
-.offcanvas-sm .offcanvas-body ul li a{
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-  font-size: 20px;
-  text-align: center;
-  padding-right: 10px;
-}
-
-
-
-
-
 
 @keyframes App-logo-spin {
   from {

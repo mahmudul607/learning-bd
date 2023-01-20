@@ -1,0 +1,21 @@
+.main-navbar{
+    margin: auto;
+}
+.main-navbar ul{
+    display: flex;
+    padding: 5px;
+}
+ .main-navbar ul li{
+    list-style: none;
+    padding: 5px;
+
+}
+.main-navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.main-navbar ul li a:hover{
+    color: lawngreen;
+}
