@@ -1,0 +1,23 @@
+.course-body .course-header img{
+    width: 250px;
+    height:220px;
+    border-radius: 50%;
+}
+.course-body{
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.course-body .course-header{
+   width: 38%;
+   padding: 25px;
+}
+.course-body .course-details{
+    width: 60%;
+    margin: auto;
+}

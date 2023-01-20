@@ -1,6 +1,16 @@
+body{
+  background-color: gray !important;
+}
 .top-carousel{
   width: 100vw;
   height: 50vh;
+}
+.body-app #uniqe{
+  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  right: 40%;
+  z-index: 100;
 }
 
 @keyframes App-logo-spin {

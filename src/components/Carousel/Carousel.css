@@ -2,20 +2,25 @@
     width: 100vw;
     height: 50vh;
 }
+.item .caption-bg{
+    background:linear-gradient(rgba(179, 96, 147, 0.685), transparent);
+    width: 35vw;
+    background-position: center;
+    margin: auto;
+    padding: 5px;
+}
+
 .item .img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     height: 60vh;
 }
-.img img{
-    float: right;
-    margin-top: 45px;
-    
-}
+
 
 .item .img1{
-    background-image: url("https://scitechdaily.com/images/Brain-Energy.gif");
+    background-image: url("https://i0.wp.com/i.giphy.com/media/zgduo4kWRRDVK/giphy-downsized.gif?w=770&ssl=1");
     
 }
 .item .img2{
@@ -23,7 +28,7 @@
     
 }
 .item .img3{
-    background-image: url("https://news.microsoft.com/wp-content/uploads/prod/sites/93/2017/02/Girls-in-STEM-gif-1.gif");
+    background-image: url("https://scitechdaily.com/images/Brain-Energy.gif");
     
 }
 
@@ -33,12 +38,4 @@
 .carousel-control-next-icon {
 	background-image: url("") !important;
     
-}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-	margin-top: 0;
-	margin-bottom: .5rem;
-	font-weight: 500;
-	line-height: 1.2;
-	background: linear-gradient(rgba(58, 57, 56, 1), rgb(0, 0, 0,0));
-    background-size: auto;
 }
