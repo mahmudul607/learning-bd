@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import './Course.css'
@@ -9,7 +11,7 @@ const Course = (props) => {
             <div className="course-header">
                 <img src={image} alt="img"/>
                 <h4>{coursename}</h4>
-                <h6>Price: {price}</h6>
+                <h4>Price: {price}</h4>
             </div>
 
             <div className="course-details">
@@ -18,7 +20,8 @@ const Course = (props) => {
                 <h6>Duration: {duration}</h6>
                 <h6>Upcomming: {upcomming}</h6>
                 <h6><span>Key of Success:</span> {Focus}</h6>
-                <Button>Read More</Button>
+                <Button style={{marginRight:"10px"}}>View Details</Button>
+                <Button><FontAwesomeIcon icon={faShoppingCart}/>  Enroll The Course</Button>
             </div>
             
                 
